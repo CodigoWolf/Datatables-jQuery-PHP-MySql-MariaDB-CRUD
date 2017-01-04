@@ -1,0 +1,13 @@
+.fondo{
+	background: rgba(51, 122, 183, 0.8);
+	color: #ffffff;
+}
+
+.linea-izquierda{
+	border-left: solid 3px #d9534f;	
+}
+
+.ocultar{
+
+	display: none;
+}
