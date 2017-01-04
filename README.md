@@ -1,2 +1,14 @@
-# Datatables-jQuery-PHP-MySql-MariaDB-CRUD
-CRUD usando el plugin DataTables Jquery, junto con PHP y el gestor de base de datos MariaDB. Además el uso de Bootstrap para el diseño.
+# CRUD usando Datatables jQuery PHP MySql-MariaDB
+Desarrollo del un pequeño y sencillo CRUD usando:
+
+➜Plugin: DataTables Jquery 1.10.12.
+
+➜Lenguaje de programación: PHP 7.0.8.
+
+➜Gestor de base de datos: MariaDB 10.0.28.
+
+➜Front-end Framework: Bootstrap v3.3.6.
+
+## License
+
+Copyright (c) 2017 Código Wolf, released under [the MIT license](https://github.com/CodigoWolf/Datatables-jQuery-PHP-MySql-MariaDB-CRUD/blob/master/LICENSE)
