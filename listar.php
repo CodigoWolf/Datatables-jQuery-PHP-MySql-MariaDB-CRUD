@@ -8,10 +8,11 @@
 	if( !$resultado )
 		die("Error, no se ejecutó la consulta.");
 	else{
+		$array["data"] = [];//devuelve un arreglo vacio por si no hay registros en la base de datos
 		while ( $data = mysqli_fetch_assoc($resultado)){
 			$array["data"][] = $data;//array_map("utf8_encode", $data);
 		}
-		echo json_encode( $array );		
+		echo json_encode( $array );
 	}
 
 	mysqli_free_result( $resultado );
