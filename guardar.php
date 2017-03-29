@@ -1,11 +1,15 @@
 <?php 
 	include("conexion.php");
 
-	$idusuario = $_POST["idusuario"];
-	$nombre = $_POST["nombre"];
-	$apellidos = $_POST["apellidos"];
-	$dni = $_POST["dni"];
+	$idusuario = $_POST["idusuario"];	
 	$opcion = $_POST["opcion"];
+
+	if($opcion == "registrar" || $opcion == "modificar"){//obtener el valor de los campos
+		$nombre = $_POST["nombre"];
+		$apellidos = $_POST["apellidos"];
+		$dni = $_POST["dni"];
+	}
+
 	$informacion = [];
 
 	switch ( $opcion ) {
